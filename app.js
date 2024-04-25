@@ -7,6 +7,7 @@ let started = false;
 let level = 0;
 
 let h2 = document.querySelector("h2");
+let playArea = document.querySelector(".play-button");
 
 // Sounds
 
@@ -17,7 +18,8 @@ let errorSfx = document.getElementById("errorSfx");
 let levelupSfx = document.getElementById("levelupSfx");
 
 // Start the game
-document.addEventListener("keypress", function () {
+playArea.addEventListener("click", function () {
+  console.log("div was clicked");
   if (started == false) {
     console.log("Game Started");
     started = true;
