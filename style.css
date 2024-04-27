@@ -3,8 +3,8 @@ body {
 }
 
 .btn {
-  height: 200px;
-  width: 200px;
+  height: 175px;
+  width: 175px;
   border-radius: 20%;
   border: 10px solid black;
   margin: 2.5rem;
@@ -40,7 +40,7 @@ body {
   align-items: center;
   height: 80px;
   border: 10px solid black;
-  margin-top: 20px; /* Adjust margin-top as needed */
+  margin-top: 5px; /* Adjust margin-top as needed */
   color: white;
   font-size: 80px;
   text-align: center;
@@ -54,9 +54,9 @@ body {
 
 /* Add media query for mobile devices */
 @media (max-width: 600px) {
-  .btn-container {
+  /* .btn-container {
     margin-top: 40%;
-  }
+  } */
   .btn {
     height: 150px;
     width: 150px;
